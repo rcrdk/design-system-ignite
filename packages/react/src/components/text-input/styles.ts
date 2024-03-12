@@ -1,14 +1,28 @@
-import { styled } from '../../../styles'
+import { styled } from '../../styles'
 
 export const TextInputContainer = styled('div', {
 	background: '$gray900',
-	padding: '$3 $4',
 	borderRadius: '$sm',
 	boxSizing: 'border-box',
 	border: '2px solid $gray900',
 	display: 'flex',
-	alignItems: 'baseline',
+	alignItems: 'center',
 	cursor: 'text',
+
+	variants: {
+		size: {
+			small: {
+				padding: '$2 $3',
+			},
+			medium: {
+				padding: '$3 $4',
+			},
+		},
+	},
+
+	defaultVariants: {
+		size: 'medium',
+	},
 
 	'&:has(input:focus)': {
 		borderColor: '$ignite300',
@@ -43,5 +57,6 @@ export const Input = styled('input', {
 
 	'&::placeholder': {
 		color: '$gray400',
+		fontStyle: 'italic',
 	},
 })

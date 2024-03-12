@@ -1,6 +1,6 @@
 import { ComponentProps, ElementType } from 'react'
 
-import { styled } from '../../styles'
+import { styled } from '../styles'
 
 export const Button = styled('button', {
 	all: 'unset',
@@ -23,6 +23,10 @@ export const Button = styled('button', {
 
 	'&:disabled': {
 		cursor: 'not-allowed',
+	},
+
+	'&:focus-visible': {
+		boxShadow: '0 0 0 2px $colors$gray8300, 0 0 0 4px $colors$ignite500',
 	},
 
 	svg: {
@@ -61,6 +65,9 @@ export const Button = styled('button', {
 				},
 				'&:disabled': {
 					color: '$gray600',
+				},
+				'&:focus-visible': {
+					boxShadow: '0 0 0 2px $colors$ignite500',
 				},
 			},
 		},

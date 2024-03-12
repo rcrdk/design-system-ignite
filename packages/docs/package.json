@@ -1,5 +1,5 @@
 {
-	"name": "@ignite-ui/docs",
+	"name": "@rcrdk-ignite-ui/docs",
 	"private": true,
 	"version": "1.0.0",
 	"license": "MIT",
@@ -13,10 +13,10 @@
 		"dev": "storybook dev -p 6006 --no-open"
 	},
 	"dependencies": {
-		"@ignite-ui/eslint-config": "*",
-		"@ignite-ui/react": "*",
-		"@ignite-ui/tokens": "*",
-		"@ignite-ui/ts-config": "*",
+		"@rcrdk-ignite-ui/eslint-config": "*",
+		"@rcrdk-ignite-ui/react": "*",
+		"@rcrdk-ignite-ui/tokens": "*",
+		"@rcrdk-ignite-ui/ts-config": "*",
 		"@phosphor-icons/react": "^2.0.15",
 		"@storybook/addon-a11y": "^8.0.0",
 		"@storybook/icons": "^1.2.9",

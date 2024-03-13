@@ -1,5 +1,11 @@
 # @rcrdk-ignite-ui/tokens
 
+## 3.0.1
+
+### Patch Changes
+
+- Updated README.md
+
 ## 3.0.0
 
 ### Major Changes

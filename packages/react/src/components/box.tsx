@@ -4,9 +4,11 @@ import { styled } from '../styles'
 
 export const Box = styled('div', {
 	padding: '$6',
+	boxSizing: 'border-box',
 	borderRadius: '$md',
 	background: '$gray800',
 	border: '1px solid $gray600',
+	'-webkit-font-smoothing': 'antialiased',
 })
 
 export interface BoxProps extends ComponentProps<typeof Box> {

@@ -8,6 +8,7 @@ export const TextInputContainer = styled('div', {
 	display: 'flex',
 	alignItems: 'center',
 	cursor: 'text',
+	'-webkit-font-smoothing': 'antialiased',
 
 	variants: {
 		size: {

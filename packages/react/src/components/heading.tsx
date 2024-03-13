@@ -3,10 +3,14 @@ import { ComponentProps, ElementType } from 'react'
 import { styled } from '../styles'
 
 export const Heading = styled('h2', {
+	display: 'block',
 	fontFamily: '$default',
+	fontWeight: '$bold',
+	fontStyle: 'normal',
 	lineHeight: '$shorter',
 	margin: 0,
 	color: '$gray100',
+	'-webkit-font-smoothing': 'antialiased',
 
 	variants: {
 		size: {

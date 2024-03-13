@@ -15,6 +15,7 @@ export const TextArea = styled('textarea', {
 	cursor: 'text',
 	resize: 'vertical',
 	minHeight: 80,
+	'-webkit-font-smoothing': 'antialiased',
 
 	'&:focus': {
 		outline: 'none',

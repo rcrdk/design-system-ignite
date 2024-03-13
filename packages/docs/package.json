@@ -13,11 +13,14 @@
 		"dev": "storybook dev -p 6006 --no-open"
 	},
 	"dependencies": {
+		"@phosphor-icons/react": "^2.0.15",
+		"@radix-ui/react-portal": "^1.0.4",
+		"@radix-ui/react-toast": "^1.1.5",
+		"@radix-ui/react-tooltip": "^1.0.7",
 		"@rcrdk-ignite-ui/eslint-config": "*",
 		"@rcrdk-ignite-ui/react": "*",
 		"@rcrdk-ignite-ui/tokens": "*",
 		"@rcrdk-ignite-ui/ts-config": "*",
-		"@phosphor-icons/react": "^2.0.15",
 		"@storybook/addon-a11y": "^8.0.0",
 		"@storybook/icons": "^1.2.9",
 		"polished": "^4.3.1",

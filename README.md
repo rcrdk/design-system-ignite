@@ -40,4 +40,4 @@ See the [full documentation](https://rcrdk.github.io/design-system-ignite/).
 
 ## 💻 Projects
 
-- Ignite Call *(Soon)*
+- [Ignite Call](https://github.com/rcrdk/ignite-call)
